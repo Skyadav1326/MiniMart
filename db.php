@@ -1,15 +1,18 @@
 <?php
 
 $conn = mysqli_connect(
-"localhost",
+
+"mysql.railway.internal",
 "root",
-"",
-"minimart"
+"BDkRAsFitdynWpMRctfuboRNILqZckjX",
+"railway"
+
 );
 
 if(!$conn){
 
 die("Database Connection Failed");
+
 }
 
 ?>
